@@ -1,0 +1,15 @@
+php_flag display_errors on
+php_value memory_limit 496M
+php_value upload_max_filesize 10M
+php_flag allow_url_fopen on
+
+#UN-COMMENT WHEN GOING LIVE
+RewriteCond %{HTTP_HOST} ^www.scallyhatter.com$ [NC]
+RewriteRule ^(.*)$ http://scallyhatter.com/$1 [R=301,L]
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
