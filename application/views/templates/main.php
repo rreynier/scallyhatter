@@ -79,7 +79,7 @@
                         </div>
                         <div id="findus">
                             <h2>Connect</h2>
-                            <p><a href="http://www.facebook.com/event.php?eid=229958703706061&ref=ts" class="facebook">Become a fan on Facebook</a></p>
+                            <p><a href="https://www.facebook.com/groups/scallywenches/" class="facebook">Become a fan on Facebook</a></p>
                         </div>
                     </div>
                 </div>
