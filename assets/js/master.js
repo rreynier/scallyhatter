@@ -11,9 +11,6 @@ $(document).ready(function() {
                 type: "POST",
                 url: 'front/get-notified',
                 success: function(result){
-                    
-                    alert(result);
-
                     $('#newsletteremail').parent().append('<div class="success clear">Thanks! We got it.</div>');
                 }
             });
