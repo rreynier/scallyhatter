@@ -36,7 +36,7 @@ $(document).ready(function() {
         <input type="hidden" name="amount" value="<?php echo $player_scallyhatter['signup_fee_online']; ?>">
         <input type="hidden" name="currency_code" id="currency_code" value="USD" />
         <input type="hidden" name="notify_url" id="notify_url" value="<?php echo base_url();?>pay/ipn_processor/"/>
-        <input type="hidden" name="cancel_return" value="<?php echo base_url(); ?>pay/cancelled/<?php echo $player_scallyhatter['player_scallyhatter_id']; ?>" />
+        <input type="hidden" name="cancel_return" value="<?php echo base_url(); ?>pay/canceled/<?php echo $player_scallyhatter['player_scallyhatter_id']; ?>" />
         <input type="hidden" name="return" value="<?php echo base_url(); ?>pay/confirmation/<?php echo $player_scallyhatter['player_scallyhatter_id']; ?>" />
         <input type="hidden" name="no_shipping" id="no_shipping" value="1" />
      </form>
