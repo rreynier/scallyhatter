@@ -80,7 +80,14 @@
             <label for="shirt_size">Shirt Size *</label>
             <?php echo form_dropdown(
                 'shirt_size',
-                array( '' => 'Choose', 's' => 'Small','m' => 'Medium', 'l' => 'Large', 'xl' => 'Extra Large' ),
+                array(
+                    '' => 'Choose',
+                    'xs' => 'Extra Small',
+                    's' => 'Small',
+                    'm' => 'Medium',
+                    'l' => 'Large',
+                    'xl' => 'Extra Large'
+                ),
                 '',
                 'class="dropdown required" id="shirt_size"');
             ?>

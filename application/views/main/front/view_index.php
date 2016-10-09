@@ -26,14 +26,15 @@
 
 <div id="maincontent">
     <h1>Welcome to the home of the Tampa Scally Hatter</h1>
-    <p>The Scally Hatter is a frisbee hat tournament in Tampa, Florida.  It is organized as a fundraiser for Scally Wenches (USF Womans Ultimate Frisbee Team).  This tournament occurs near the end of every year.</p>
+    <p>The Scally Hatter is a frisbee hat tournament in Tampa, Florida. It is organized as a fundraiser for
+        Scallywenches (USF Women's Ultimate Frisbee Team). This tournament occurs near the end of every year.</p>
     <h2>Reasons to sign up and play:</h2>
     <ul>
-        <li>You get to play frisbee!</li>
+        <li>You get to play ultimate!</li>
         <li>Everyone is welcome, frisbee noob all the way to frisbee god.</li>
-        <li>You are helping the USF Womans team by providing them with a way to pay for things. MONEY!</li>
-        <li>Meet people from all over the Tampa area and more.  True love is often found on the frisbee field.</li>
-        <li>It's Florida, its good to be outside.. even if its a hundred degrees out..</li>
+        <li>You are helping the USF Women's team by providing them with a way to pay for things.</li>
+        <li>Meet people from all over the Tampa area and more. True love is often found on the frisbee field.</li>
+        <li>It's Florida, its good to be outside... even if its a hundred degrees out!</li>
         <li>Did we mention... you get to play frisbee?</li>
     </ul>
     <p>If you want to find out more information about the upcoming Scally Hatter, please click <?php echo anchor('info', 'info'); ?> at the top.</p>
