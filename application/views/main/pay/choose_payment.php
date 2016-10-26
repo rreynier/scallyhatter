@@ -42,10 +42,10 @@ $(document).ready(function() {
      </form>
 </div>
 
-<!--<div id="paylater">
+<div id="paylater">
     <h3 class="button">Pay Later <?php echo money($player_scallyhatter['signup_fee_other']); ?> <span class="desc">(Check/Cash)</span></h3>
     <p>Choose this option if you would like to pay with cash or check.  If you bring a check, please write it out to "USF Womens Ultimate".</p>
      <?php echo anchor('pay/pay-later/' . $player_scallyhatter['player_scallyhatter_id'],'Pay Later', 'class="action"'); ?>
-</div>-->
+</div>
 </div>
 </div>
